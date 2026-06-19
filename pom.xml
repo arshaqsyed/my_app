@@ -8,6 +8,12 @@
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+<dependency>
+    <groupId>org.apache.nifi</groupId>
+    <artifactId>nifi-api</artifactId>
+    <version>2.9.0</version>
+    <scope>compile</scope>
+</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
